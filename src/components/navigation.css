@@ -1,0 +1,39 @@
+.nav{
+    height: 10%;
+    width: 75%;
+    margin: 2.5% auto;
+    background: rgb(254, 255, 238);
+    font-size:1.2em;
+    font-family: 'namunsqare';
+    font-weight:bold;
+    position:relative;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 2px rgba(201, 217, 131, 0.356);
+}
+
+
+@media screen and (max-width: 1090px) {
+    .nav {
+        left: initial;
+        top: initial;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+.nav a{
+    color: rgb(244, 245, 219);
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    text-shadow: 1px 1px 0px rgb(76, 77, 65);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(0,0,0);
+}

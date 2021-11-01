@@ -1,0 +1,105 @@
+.wapper {
+    margin: 0;
+    padding: 0;
+    color: #white;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_bgimage {
+    width: 80vw;
+    height: 90vh;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate( -50%, -50% );
+    filter: brightness(40%);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+}
+
+.things {
+    position: absolute;
+    width: 55%;
+    height: 45%;
+    top: 50%;
+	left: 50%;
+    transform: translate( -50%, -50% );
+    display: flex;
+}
+.movie_poster {
+    width: 40%;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.movie_genre, .info, .summary_title,
+.summary, .line_wrapper {
+    padding: 0;
+    margin: 5px 10px ;
+}
+
+.movie_rating, .movie_year, .movie_runtime,
+.summary_title, .movie_genres {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.movie_title {
+    padding: 0;
+    margin: 0 10px 5px 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie_rating, .movie_year {
+    margin-right: 20px;
+}
+
+.movie_genres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie_genre {
+    padding: 0;
+    margin: 0 10px;
+}
+
+
+.summary {
+    text-align: justify;
+}
+.i_wrapper {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.i_wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+.i_wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+.i_wrapper::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
