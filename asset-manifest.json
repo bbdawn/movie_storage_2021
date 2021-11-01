@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/movie_storage_2021/static/css/main.162d19d1.chunk.css",
+    "main.js": "/movie_storage_2021/static/js/main.f67a84e2.chunk.js",
+    "main.js.map": "/movie_storage_2021/static/js/main.f67a84e2.chunk.js.map",
+    "runtime-main.js": "/movie_storage_2021/static/js/runtime-main.95794326.js",
+    "runtime-main.js.map": "/movie_storage_2021/static/js/runtime-main.95794326.js.map",
+    "static/js/2.b92edf3f.chunk.js": "/movie_storage_2021/static/js/2.b92edf3f.chunk.js",
+    "static/js/2.b92edf3f.chunk.js.map": "/movie_storage_2021/static/js/2.b92edf3f.chunk.js.map",
+    "index.html": "/movie_storage_2021/index.html",
+    "static/css/main.162d19d1.chunk.css.map": "/movie_storage_2021/static/css/main.162d19d1.chunk.css.map",
+    "static/js/2.b92edf3f.chunk.js.LICENSE.txt": "/movie_storage_2021/static/js/2.b92edf3f.chunk.js.LICENSE.txt",
+    "static/media/database.png": "/movie_storage_2021/static/media/database.8de3a3c1.png",
+    "static/media/development.png": "/movie_storage_2021/static/media/development.9b99ef3d.png",
+    "static/media/teamwork.png": "/movie_storage_2021/static/media/teamwork.fa245349.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95794326.js",
+    "static/js/2.b92edf3f.chunk.js",
+    "static/css/main.162d19d1.chunk.css",
+    "static/js/main.f67a84e2.chunk.js"
+  ]
+}
